@@ -1,5 +1,7 @@
 # Laboratorio 02
 
+- Profesor: Ing. Walter Ivan Leturia Rodriguez
+
 ## Stack
 API
 - Minimal API
@@ -78,9 +80,9 @@ Para comprobar que los datos siguen al apagar los contenedores:
 ```
 docker exec -it dockercompose-db-1 psql -U milanesa -d mibd
 
-CREATE TABLE estudiantes (id SERIAL PRIMARY KEY, nombre VARCHAR(50));
+CREATE TABLE studiantes (id SERIAL PRIMARY KEY, nombre VARCHAR(50));
 
-INSERT INTO estudiantes (nombre) VALUES ('Facundo Javier Laredo Cuba');
+INSERT INTO studiantes (nombre) VALUES ('Facundo Javier Laredo Cuba');
 
 \q
 
@@ -88,8 +90,13 @@ docker compose down
 
 docker compose up -d
 
-docker exec -it dockercompose-db-1 psql -U milanesa -d mibd -c "SELECT * FROM estudiantes;"
+docker exec -it dockercompose-db-1 psql -U milanesa -d mibd -c "SELECT * FROM studiantes;"
 ```
+
+## Control de Versiones (Conventional Commits)
+El desarrollo del proyecto sigue la especificación de **Conventional Commits** para estructurar el historial de cambios de manera clara y profesional:
+- `feat(stack): initialize docker compose laboratory with api, db, volumes and env`
+
 # Tipos de redes y los tipos de volumen que existen en docker
 
 Los tipos de redes que tenemos son bridge, host y none.
@@ -104,8 +111,35 @@ Los tipos de volúmenes son docker volume (volúmenes gestionados), bind mounds 
 - bind mounds: Se guarda en cualquier ruta del host. Se usa en el desarrollo local y sincronización en vivo.
 - tmpfs: Se guarda en la memoria RAM. Se usa en apps sensibles que no necesitan persistencia.
 
-https://iesgn.github.io/curso_docker_2021/sesion4/tipos.html
-https://90daysdevops.295devops.com/semana-02/dia11/
-# Creditos
+## EVIDENCIAS
+
+assets/tresInstancias.png
+
+assets/instanciasPuerto.png
+
+assets/mensaje1.png
+
+assets/BaseDatos.png
+
+assets/BaseDatosInstancias.png
+
+assets/entorno.png
+
+assets/datos.png
+
+assets/volume.png
+
+assets/persistencia1.png
+
+assets/persistencia2.png
+
+assets/commits.png
+
+assets/repositorio.png
+
+### Páginas revisadas: 
+
+- https://iesgn.github.io/curso_docker_2021/sesion4/tipos.html
+- https://90daysdevops.295devops.com/semana-02/dia11/
+# Alumno
 - Facundo Javier Laredo Cuba
-# ETC
