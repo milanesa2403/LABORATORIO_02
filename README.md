@@ -111,7 +111,10 @@ Los tipos de volúmenes son docker volume (volúmenes gestionados), bind mounds 
 - bind mounds: Se guarda en cualquier ruta del host. Se usa en el desarrollo local y sincronización en vivo.
 - tmpfs: Se guarda en la memoria RAM. Se usa en apps sensibles que no necesitan persistencia.
 
-## EVIDENCIAS
+### Páginas revisadas: 
+
+- https://iesgn.github.io/curso_docker_2021/sesion4/tipos.html
+- https://90daysdevops.295devops.com/semana-02/dia11/
 
 ## EVIDENCIAS
 
@@ -128,9 +131,6 @@ Los tipos de volúmenes son docker volume (volúmenes gestionados), bind mounds 
 ![Commits](assets/commits.png)
 ![Repositorio](assets/repositorio.png)
 
-### Páginas revisadas: 
 
-- https://iesgn.github.io/curso_docker_2021/sesion4/tipos.html
-- https://90daysdevops.295devops.com/semana-02/dia11/
 # Alumno
 - Facundo Javier Laredo Cuba
