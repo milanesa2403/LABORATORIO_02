@@ -113,29 +113,20 @@ Los tipos de volúmenes son docker volume (volúmenes gestionados), bind mounds 
 
 ## EVIDENCIAS
 
-assets/tresInstancias.png
+## EVIDENCIAS
 
-assets/instanciasPuerto.png
-
-assets/mensaje1.png
-
-assets/BaseDatos.png
-
-assets/BaseDatosInstancias.png
-
-assets/entorno.png
-
-assets/datos.png
-
-assets/volume.png
-
-assets/persistencia1.png
-
-assets/persistencia2.png
-
-assets/commits.png
-
-assets/repositorio.png
+![Tres instancias](assets/tresInstancias.png)
+![Instancias puerto](assets/instanciasPuerto.png)
+![Mensaje](assets/mensaje1.png)
+![Base de Datos](assets/BaseDatos.png)
+![Base de Datos Instancias](assets/BaseDatosInstancias.png)
+![Entorno](assets/entorno.png)
+![Datos](assets/datos.png)
+![Volume](assets/volume.png)
+![Persistencia 1](assets/persistencia1.png)
+![Persistencia 2](assets/persistencia2.png)
+![Commits](assets/commits.png)
+![Repositorio](assets/repositorio.png)
 
 ### Páginas revisadas: 
 
