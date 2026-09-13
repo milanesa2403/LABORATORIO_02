@@ -5,7 +5,7 @@
 ## Stack
 API
 - Minimal API
-- Debe retornar un mensaje incluyendo mi nombre
+- Debe retornar un mensaje cualquiera.
 - Docker
 
 BD
